@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+
+
+    <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maliyet Hesaplama"
+            android:textSize="10sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Kumaş Parası:"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:inputType="number"/>
+
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Dikimci Parası:"
+            android:layout_below="@id/editText1"
+            android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:inputType="number"/>
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Kesimci Parası:"
+            android:layout_below="@id/editText2"
+            android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:inputType="number"/>
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Biye Parası:"
+            android:layout_below="@id/editText3"
+            android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:inputType="number"/>
+
+    <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Paket Parası:"
+            android:layout_below="@id/editText4"
+            android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:inputType="number"/>
+
+    <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Toplam Ürün Sayısı:"
+            android:layout_below="@id/editText5"
+            android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView6"
+            android:inputType="number"/>
+
+    <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hesapla"
+            android:layout_below="@id/editText6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="197dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Maliyet: "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTahaDursun"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="54dp"
+        android:text="Taha Dursun"
+        android:textSize="20sp" />
+
+</RelativeLayout>
